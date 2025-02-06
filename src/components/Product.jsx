@@ -30,7 +30,7 @@ const Product = ({ post }) => {
       </div>
 
       <div className='h-[180px]'>
-        <img src={post.image} className='h-full w-full'/>
+        <img src={post.image} className='h-full w-full' alt=''/>
       </div>
 
       <div className='flex justify-between gap-12 items-center w-full mt-5'>

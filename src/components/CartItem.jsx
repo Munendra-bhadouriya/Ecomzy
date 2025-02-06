@@ -16,7 +16,7 @@ const CartItem = ({ item, itemIndex }) => {
   return (
     <div className='flex justify-between items-center gap-x-10 border-b-[2px] my-2 py-5 border-gray-500'>
       <div className='w-1/3'>
-        <img src={item.image} width="150px"/>
+        <img src={item.image} width="150px" alt=''/>
       </div>
       <div className='space-y-5'>
         <h1 className='font-semibold text-gray-800 text-xl'>{item.title}</h1>
